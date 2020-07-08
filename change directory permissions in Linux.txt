@@ -1,0 +1,51 @@
+change directory permissions in Linux
+
+$ ls -l
+
+Symbol	Permission
+r	Read
+w	Write
+x	Execute
+
+
+Symbol	Category
+u	User
+g	Group
+o	Other
+a	All - user, group, and other.
+
+
+rwx	The permissions. One or more of r for read, w for write, and x for execute.
+
+
+chmod +rwx filename to add permissions.
+chmod -rwx directoryname to remove permissions.
+chmod +x filename to allow executable permissions.
+chmod -wx filename to take out write and executable permissions.
+
+chmod g+w filename
+chmod g-wx filename
+chmod o+w filename
+chmod o-rwx foldername
+
+chmod a=r foldername to give only read permission for everyone.
+
+0 = No Permission
+1 = Execute
+2 = Write
+4 = Read
+
+
+0 = ---
+1 = --x
+2 = -w-
+3 = -wx
+4 = r-
+5 = r-x
+6 = rw-
+7 = rwx
+
+
+chmod 777 foldername will give read, write, and execute permissions for everyone.
+chmod 700 foldername will give read, write, and execute permissions for the user only.
+chmod 327 foldername will give write and execute (3) permission for the user, w (2) for the group, and read, write, and execute for the users.

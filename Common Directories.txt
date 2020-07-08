@@ -1,0 +1,20 @@
+Common Directories
+Here are the most common top level directories that you need to be aware of and may interact with as a normal user.
+
+Command	Description
+ls 		list of directory
+ls -h 		list of directory and hidden files
+cd /		go to root directory
+cd ..		Back from current directory
+cd /		Back to root stirgh a head
+
+Dir		Description
+/		The directory called "root." It is the starting point for the file system hierarchy. 
+			Note that this is not related to the root, or superuser, account.
+/bin		Binaries and other executable programs.
+/etc		System configuration files.
+/home	Home directories.
+/opt		Optional or third party software.
+/tmp		Temporary space, typically cleared on reboot.
+/usr		User related programs.
+/var		Variable data, most notably log files.

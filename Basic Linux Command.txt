@@ -1,0 +1,36 @@
+Basic Linux Commands:
+Commands      	Discreption:
+
+$ls 		- Lists directory contents. You will use ls to display information about files and directories.
+$ls -a		-See all the hidden files
+
+$cd [dir] 	- Changes the current directory to dir. If you execute cd without specifying a directory, cd changes the current directory to your home directory. This is how you navigate around the system.
+
+$pwd 		- Displays the present working directory name. If you don't know what directory you are in, pwd will tell you.
+
+$cat [file] 	- Concatenates and displays files. This is the command you run to view the contents of a file.
+
+$echo [argument] - Displays arguments to the screen.
+
+$man command 	- Displays the online manual for command. Type q to quit viewing the manual page. The documentation provided by the man command is commonly called "man pages."
+
+$exit, logout, or Ctrl-d - Exits the shell or your current session.
+
+$clear - Clears the screen.
+
+$mkdir [dirname]- when you need to create a folder or a directory.
+
+$rmdir [dir]	-to delete a directory
+
+$rm		- Use the rm command to delete files and directories
+
+$touch 	— The touch command is used to create a file
+$touch new.txt
+
+$cp 		- copy files through the command line
+$cp new.text /home/alinemati/Desktop/
+$ls /home/alinemati/Desktop/
+
+
+$mv 		— Use the mv command to move files through the command line.
+$mv /home/alinemati/Desktop/new.text /
